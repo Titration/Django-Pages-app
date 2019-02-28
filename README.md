@@ -1,2 +1,3 @@
 # Django-Pages-app
-Chapter 3 in Django for Beginner 
+This is a practice from the book "Django for Beginner".
+Chapter3

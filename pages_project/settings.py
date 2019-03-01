@@ -55,7 +55,9 @@ ROOT_URLCONF = 'pages_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # an approach to structuring the templates in a Django project,
+        # create a single, project-level templates directory that is avaliable to all apps.        
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
